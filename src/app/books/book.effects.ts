@@ -7,7 +7,6 @@ import { Book } from "../models/book";
 
 @Injectable()
 export class BookEffects {
-    
     // This is an NgRx Effect that responds to 'AddBook' actions.
     addBook$ = createEffect(() => this.actions$.pipe(
         //Listen for actions of type 'AddBook'
